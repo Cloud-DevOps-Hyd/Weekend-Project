@@ -1,0 +1,8 @@
+---
+- hosts: all
+  tasks:
+  - name: creating a directory by ansible playbook
+    file:
+      path: /root/oot/Desktop/Ravindra
+      state: directory
+        #this is comment line  d as dgsd g sdg 
